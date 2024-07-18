@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+/*estilo para o menu superior*/
+#titulo-menusuperior{
+    margin-left: 62px;
+    padding-top: 150px;
+    font-size: 60px;
+}
+
+#texto-menusuperior{
+    margin-left: 70px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+
+#menusuperior{
+    color: white;
+    background-color: #303030;
+    
+}
+/*estilo para o menu informacional*/
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    margin: 50px 0px 50px 50px;
+    padding: 25px;
+    max-width: 50%;
+    height: auto;
+}
+/*estilo para o menu principal*/
+#menuprincipal{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 50px;
+    margin-left: 77px;
+    margin-bottom: 75px;
+}
+
+#texto-menuprincipal{
+    margin-top: 125px;
+    max-width: 90%;
+}
+
+#imagen-menuprincipal{
+    max-width: 75%;
+    height: auto;
+}
+/*estilo para o formulario*/
+#formulario{
+background-color: #303030;
+padding-top: 75px;
+padding-bottom: 100px;
+text-align: center;
+}
+
+#titulo-formulario{
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+/*estilo para os inputs*/
+input{
+    width: 350px;
+    height: 45px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #ffffff;
+}
+/*estilo para o botão*/
+button{
+    margin-top: 25px;
+    background-color: #C07212;
+    height: 50px;
+    width: 200px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "raleway";
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
